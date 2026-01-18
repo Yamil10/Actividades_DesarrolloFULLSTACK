@@ -19,6 +19,14 @@ body {
     text-align: center ;
 }
 
+.Imagen_1{
+    display: block;
+    margin: 20px auto;
+    width: 300px;
+}
+p{
+    text-align: center;
+}
 .card{
     background-color: white;
     margin: 20px auto;
@@ -37,13 +45,59 @@ li{
     text-align: center;
 }
 .boton {
-    display: inline-block;
-    background-color: navy;
-    color: white;
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
     padding: 10px 20px;
+    background-color: #1d4ed8;
+    color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 8px;
+    font-weight: bold;
 }
+
 .boton:hover {
     background-color: darkorange;
+}
+.contacto {
+    background-color: #eaeaea;
+    padding: 30px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.formulario {
+    max-width: 400px;
+    margin: auto;
+}
+
+.formulario button {
+    background-color: #1d4ed8;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: darkorange;
+}
+
+.Pie-de-pagina {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.footer a {
+    color: #4ea3ff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }
